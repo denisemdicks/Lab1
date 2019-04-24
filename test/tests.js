@@ -1,5 +1,15 @@
 const test = QUnit.test;
 
+function scoreAnswers(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lookUpAnswer, breakfastAnswer); {
+    nightActivityAnswer = nightActivityAnswer.toUpperCase();
+    runLocationAnswer = runLocationAnswer.toUpperCase();
+    strangeFoodAnswer = strangeFoodAnswer.toUpperCase();
+    lookUpAnswer = lookUpAnswer.toUpperCase();
+    breakfastAnswer = breakfastAnswer.toUpperCase();
+
+    let score = 0
+}
+
 test('All incorrect answers is 0', (assert) => {
     //Arrange
     // Set up your parameters and expectations
@@ -18,3 +28,4 @@ test('All incorrect answers is 0', (assert) => {
     //Assert
     assert.equal(score, expected);
 });
+
