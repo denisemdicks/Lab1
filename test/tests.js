@@ -8,15 +8,16 @@ test('All incorrect answers is 0', (assert) => {
     const strangeFoodAnswer = 'dolmas';
     const lookUpAnswer = 'star gazing';
     const breakfastAnswer = 'yogurt parfait';
-    const expected = 0
+    const expected = 0;
 
     // Set up your parameters and expectations
-
-    if()
+    
 
     //Act 
+    const score = scoreAnswers(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lookUpAnswer, breakfastAnswer);
+
     // Call the function you're testing and set the result to a const
 
     //Assert
-    assert.equal(true, false);
+    assert.equal(score, expected);
 });
