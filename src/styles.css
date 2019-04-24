@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 h1, h2 {
-    font-family: Open Sans;
+    font-family: Open Sans; sans serif;
 }
 
 p {
-   color: #20B2AA
+   color: #20B2AA;
 }
 
 h1 {
@@ -20,11 +20,15 @@ img {
 }
 
 label {
+    display: block;
+    font-weight: bold;
+
 
 }
 
 input {
-
+    height: 30px;
+    width: 250px;
 }
 
 button {
