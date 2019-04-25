@@ -1,3 +1,4 @@
+<script type="module" src="src/index.js"></script>
 /* eslint-disable */
 
 /* uncomment for DOM api support
