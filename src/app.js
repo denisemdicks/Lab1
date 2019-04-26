@@ -10,7 +10,7 @@ const yogurtParfait = document.getElementById('yogurt-parfait');
 const paragraph = document.getElementById('paragraph');
  //add eventListener to button (const submitbutton.eventListener)
 
-submitButton.addEventListener('click', (event) => {
+ submitButton.addEventListener('click', (event) => {
     event.preventDefault();
 
     const nightSwimmingValue = nightSwimming.value;
@@ -19,7 +19,7 @@ submitButton.addEventListener('click', (event) => {
     const stargazingValue = stargazing.value;
     const yogurtParfaitValue = yogurtParfait.value;
     
-    console.log(woods);
+    console.log(nightSwimmingValue, woodsValue, dolmasValue, stargazingValue, yogurtParfaitValue);
 
 });
 
