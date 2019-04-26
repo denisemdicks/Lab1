@@ -14,4 +14,3 @@ submitButton.addEventListener('click', () => {
 
 });
 
-if

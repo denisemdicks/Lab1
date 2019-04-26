@@ -1,4 +1,4 @@
-function scoreAnswers(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lookUpAnswer, breakfastAnswer); {
+function quizScore(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lookUpAnswer, breakfastAnswer); {
     const nightActivityAnswer = nightActivityAnswer.toUpperCase();
     const runLocationAnswer = runLocationAnswer.toUpperCase();
     const strangeFoodAnswer = strangeFoodAnswer.toUpperCase();
@@ -8,4 +8,4 @@ function scoreAnswers(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer,
     let score = 0
 }
 
-export default scoreAnswers;
+export default quizScore;

@@ -1,16 +1,18 @@
 import quizScore from '../src/quizScore.js';
 const test = QUnit.test;
 
-test('All incorrect answers is 0', (assert) => {
+test('All incorrect answers is 0', function(assert) {
     //Arrange
     // Set up your parameters and expectations
 
-    const nightActivityAnswer = 'night swimming';
-    const runLocationAnswer = 'woods';
-    const strangeFoodAnswer = 'dolmas';
-    const lookUpAnswer = 'star gazing';
-    const breakfastAnswer = 'yogurt parfait';
-    const expected = 0;
+submitButton.addEventListener('click', () => {
+        const nightActivityAnswer = jjt;
+        const runLocationAnswer = dsd;
+        const strangeFoodAnswer = dg;
+        const lookUpAnswer = ghh;
+        const breakfastAnswer = boo;
+        const expected = 0;
+}
 
 
 
