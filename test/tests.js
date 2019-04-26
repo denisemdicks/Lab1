@@ -4,12 +4,12 @@ const test = QUnit.test;
 test('All incorrect answers is 0', function(assert) {
     //Arrange
     // Set up your parameters and expectations
-        const nightActivityAnswer = 'jjt';
-        const runLocationAnswer = 'dsd';
-        const strangeFoodAnswer = 'dg';
-        const lookUpAnswer = 'ghh';
-        const breakfastAnswer = 'boo';
-        const expected = 0;
+    const nightActivityAnswer = 'jjt';
+    const runLocationAnswer = 'dsd';
+    const strangeFoodAnswer = 'dg';
+    const lookUpAnswer = 'ghh';
+    const breakfastAnswer = 'boo';
+    const expected = 0;
 
  //Act 
      // Call the function you're testing and set the result to a const
