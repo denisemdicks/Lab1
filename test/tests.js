@@ -13,7 +13,7 @@ test('All incorrect answers is 0', function(assert) {
 
  //Act 
      // Call the function you're testing and set the result to a const
-     const score = quizScore(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lookUpAnswer, breakfastAnswer);
+    const score = quizScore(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lookUpAnswer, breakfastAnswer);
 
     //Assert
     assert.equal(score, expected);

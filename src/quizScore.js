@@ -1,13 +1,13 @@
 function quizScore(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lookUpAnswer, breakfastAnswer) {
-    nightActivityAnswer = nightActivityAnswer.toUpperCase();
-    runLocationAnswer = runLocationAnswer.toUpperCase();
-    strangeFoodAnswer = strangeFoodAnswer.toUpperCase();
-    lookUpAnswer = lookUpAnswer.toUpperCase();
-    breakfastAnswer = breakfastAnswer.toUpperCase();
+    nightActivityAnswer = nightActivityAnswer.toLowerCase();
+    runLocationAnswer = runLocationAnswer.toLowerCase();
+    strangeFoodAnswer = strangeFoodAnswer.toLowerCase();
+    lookUpAnswer = lookUpAnswer.toLowerCase();
+    breakfastAnswer = breakfastAnswer.toLowerCase();
 
     let score = 0;
 
-    if(nightActivityAnswer === 'night swimming') {
+    if(nightActivityAnswer === 'swimming') {
         score ++;
     }
     if(runLocationAnswer === 'woods'){
@@ -16,13 +16,13 @@ function quizScore(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lo
     if(strangeFoodAnswer === 'dolmas'){
         score ++;
     }
-    if(lookUpAnswer === 'star gazing'){
+    if(lookUpAnswer === 'stargazing'){
         score ++;
     }
-    if(breakfastAnswer === 'yogurt-parfait'){
+    if(breakfastAnswer === 'yogurt'){
         score ++;
     }       
-        
+    return score;  
 }
 
 export default quizScore;

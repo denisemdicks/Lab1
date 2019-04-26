@@ -1,4 +1,4 @@
-// import quizScore from './quizScore.js';
+import quizScore from './quizScore.js';
 const submitButton = document.getElementById('submit');
 //get all elements by id
 
@@ -10,7 +10,7 @@ const yogurtParfait = document.getElementById('yogurt-parfait');
 const paragraph = document.getElementById('paragraph');
  //add eventListener to button (const submitbutton.eventListener)
 
- submitButton.addEventListener('click', (event) => {
+submitButton.addEventListener('click', (event) => {
     event.preventDefault();
 
     const nightSwimmingValue = nightSwimming.value;
@@ -19,7 +19,7 @@ const paragraph = document.getElementById('paragraph');
     const stargazingValue = stargazing.value;
     const yogurtParfaitValue = yogurtParfait.value;
     
-    console.log(nightSwimmingValue, woodsValue, dolmasValue, stargazingValue, yogurtParfaitValue);
-
+    const result = quizScore(nightSwimmingValue, woodsValue, dolmasValue, stargazingValue, yogurtParfaitValue);
+    paragraph.innerHTML = result;
 });
 
