@@ -12,6 +12,8 @@ test('All incorrect answers is 0', (assert) => {
     const breakfastAnswer = 'yogurt parfait';
     const expected = 0;
 
+
+
     //Act 
      // Call the function you're testing and set the result to a const
      const score = scoreAnswers(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lookUpAnswer, breakfastAnswer);

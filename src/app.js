@@ -12,5 +12,6 @@ submitButton.addEventListener('click', () => {
    
     let score = 0;
 
-
 });
+
+if
