@@ -6,8 +6,9 @@ const submitButton = document.getElementById('submit');
  const woods = document.getElementById('woods');
  const dolmas = document.getElementById('dolmas');
  const stargazing = document.getElementById('stargazing');
- const yogurtParfait = document.getElementById('yogurt-parfait');
-//add eventListener to button (const submitbutton.eventListener)
+ const yogurtParfait = document.getElementById('yogurt-parfait');   
+ const paragraph = document.getElementById('paragraph');
+ //add eventListener to button (const submitbutton.eventListener)
 
 submitButton.addEventListener('click', () => {
     const nightActivityAnswer = jjt;
