@@ -1,3 +1,5 @@
+import quizScore from '../src/quizScore.js';
+const test = QUnit.test;
 
 test('All incorrect answers is 0', (assert) => {
     //Arrange
@@ -17,4 +19,5 @@ test('All incorrect answers is 0', (assert) => {
     //Assert
     assert.equal(score, expected);
 });
+
 

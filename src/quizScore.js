@@ -1,5 +1,3 @@
-const test = QUnit.test;
-
 function scoreAnswers(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer, lookUpAnswer, breakfastAnswer); {
     nightActivityAnswer = nightActivityAnswer.toUpperCase();
     runLocationAnswer = runLocationAnswer.toUpperCase();
@@ -9,3 +7,5 @@ function scoreAnswers(nightActivityAnswer, runLocationAnswer, strangeFoodAnswer,
 
     let score = 0
 }
+
+export default quizScore;
