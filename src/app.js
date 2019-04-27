@@ -20,6 +20,8 @@ submitButton.addEventListener('click', (event) => {
     const yogurtParfaitValue = yogurtParfait.value;
     
     const result = quizScore(nightSwimmingValue, woodsValue, dolmasValue, stargazingValue, yogurtParfaitValue);
-    paragraph.innerHTML = result;
+    const message = 'You get ' + result + ' /5!';
+    paragraph.textContent = message;
+
 });
 
