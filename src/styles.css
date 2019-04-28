@@ -1,20 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-h1, h2 {
-    font-family: Open Sans;
+h1, h2, h3, h4 {
+    font-family: Open Sans, sans-serif;
+    font-size: 1 em;
 }
 
 p {
-   color: #20B2AA
+   color: #20B2AA;
 }
 
-h1 {
-    text-decoration: underline;
-    color: blue;
+h1, h2, h3 {
+    color: blue;   
 }
 
 
 img {
     width: 460px;
     height: auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 30px;
+    width: 275px;
+    font-size: 1em;
+}
+
+button {
+    height: 30px;
+    width:  100px;
+    font-size: 1.2em;
+    margin-top: 30px;
 }
